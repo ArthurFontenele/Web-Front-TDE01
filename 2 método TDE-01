@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Curriculo</title>
+</head>
+<body>
+  <h1>Nome Completo</h1>
+  <h2>Sobre</h2>
+  <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  <hr>
+  <h2>Endereço</h2>
+  <p>Rua Borboletas Psicodélicas-04313110;Ceará-BR</p>
+  <hr>
+  <h2>Formação</h2>
+  <p>Formado em Analise e desenvolvimento de sistemas - Unifap</p>
+  <p>Formado em Sistemas de informação - Unifap</p>
+  <hr>
+  <h2>Experiencia prosfissional</h2>
+  <ul>
+    <li>Programador Senior</li>
+    <p>Empresa X | Blumenau
+    mai/2013 - jan/2021</p>
+    <li>Programador Pleno</li>
+    <p>Empresa Y | Indaial
+    jan/2020 - atualmente</p>
+    <li>Web Designer</li>
+    <p>Empresa W | Blumenau
+    jan/2020 - abr/2013</p>
+  </ul>
+  <h2>Informações de contato</h2>
+  <p>Nome completo</p>
+  <p>Telefone</p>
+  <p>E-mail</p>
+  <p>Endereço</p>
+  <p>Linkedlin ou site pessoal</p>
+  <br><hr>
+    <h1>Solicitação de orçamento</h1>
+  <hr>
+  <h3>Preencha o formulario a seguir para soliciar seu orçamento:</h3>
+  <form action="#">
+<form method='POST' action=''>
+	<label for="nome">Nome</label>
+	<input type='text' id='nome' name='nome' required placeholder="digite seu Nome aqui">
+	<label for="email">Email</label>
+	<input type='email' id='email' name='email' required placeholder="digite seu Email aqui">
+	<br>
+	<label for="fone">Celular com DDD</label>
+	<input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999">
+	<br>
+	<label for="dtnasc">Data Nasc</label>
+	<input type='date' id='dtnasc' name='dtnasc'>
+	<label for="cor">Cor favorita</label>
+	<input type='color' id='cor' name='cor'>
+	<br>
+	<p>Sexo:</p>
+	<input type="radio" id="sexo-m" name="sexo" value="Masculino">
+	<label for="sexo-m">Masculino</label><br>
+	<input type="radio" id="sexo-f" name="sexo" value="Feminino">
+	<label for="sexo-f">Feminio</label><br>
+  <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+	<label for="sexo-f">Não binario</label>
+	<br> <br>
+	<label for="estado">Estado</label>
+	<select id="estado" name="estado">
+		<option value="SP">CE</option>
+		<option value="RJ">PE</option>
+		<option value="PB">PI</option>
+    <option value="PB">BA</option>
+    <option value="PB">PB</option>
+	</select>
+  </form>
+  <hr>
+  <form action="" methot"post">Selecione o produto desejado:
+  <select name="select">
+    <option value="valor1">Site portfolio</option>
+    <option value="valor2" selected>Site apresentação</option>
+    <option value="valor3">Site Completo</option>
+  </select>
+    <br>
+    <label for="">Para quem é destinado o site ?:</label>
+    <input type="text" placeholder="Ex:...Empresa, pessoal, etc...">
+    <br>
+    <p>Duvidas ?</p>
+    <label for="">Envie sua duvida:</label>
+    <input type="text" placeholder="Digite sua mensagem!">
+    <br>
+   <hr>
+    <label>Por favor antes de efetuar o pagamente nos envie a data que esta sendo feito :</label><br>
+    <input type="date"> Obrigado por infomar.
+     <p>Forma de pagamento deseja:</p>
+     <select name="select">
+    <option value="valor">Pix</option>
+    <option value="valor00" selected>Cartão de credito</option>
+    <option value="valor11">Cartão de debito</option>
+    <option value="valor22">Boleto bancario</option>
+    </select>
+    <p>Informações importantes sobre as formas de pagamento:</p>
+    <p>Pix: Pagamento imediato.</p>
+    <p>Cartão de Credito: Pagamento a depender do banco e bandeira ate 24horas</p>
+    <p>Cartão de Debito: Pagamento automatico/instantaneo a depender apenas do banco.</p>
+    <p>Boleto Bancario: Pagamento pode levar até 72 horas.</p>
+  </form>
+</body>
+</html>
+
